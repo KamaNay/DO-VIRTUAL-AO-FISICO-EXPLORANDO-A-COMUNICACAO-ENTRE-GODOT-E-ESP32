@@ -1,0 +1,2 @@
+# DO-VIRTUAL-AO-FISICO-EXPLORANDO-A-COMUNICACAO-ENTRE-GODOT-E-ARDUINO
+O trabalho descreve a integração via Wi-Fi entre a engine Godot e o microcontrolador ESP-32 para criar jogos imersivos. Usando sensores para converter ações físicas em comandos digitais, o projeto validou a estabilidade e o tempo de resposta do sistema. O resultado prova a viabilidade de soluções de baixo custo para jogos, educação e automação.
