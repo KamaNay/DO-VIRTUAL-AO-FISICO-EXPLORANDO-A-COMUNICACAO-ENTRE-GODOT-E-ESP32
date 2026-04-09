@@ -42,7 +42,7 @@ Este projeto transforma um **ESP32-S3 (com tela redonda GC9A01)** em um volante 
 ### 2. Godot 4
 1. Adicione o script fornecido ao seu nó VehicleBody3D ou RigidBody3D.
 
-2. Certifique-se de que o IP na variável esp32_ip corresponde ao que aparece na tela da placa ao iniciar.
+2. Certifique-se de que o IP na variável esp32_ip no script car.gd corresponde ao que aparece na tela da placa ao iniciar.
 
 ### 🎮 Como Jogar
 1. Ligue o controle (ele conectará automaticamente ao Wi-Fi).
