@@ -125,6 +125,20 @@ void setup() {
   while (WiFi.status() != WL_CONNECTED) { delay(100); }
   
   udp.begin(udp_port); // Começa a ouvir a porta 4242
+
+    // --- MOSTRA O IP NA TELA POR 5 SEGUNDOS ---
+  tft->fillScreen(PRETO);
+  tft->setCursor(50, 90);
+  tft->setTextColor(VERDE);
+  tft->setTextSize(2);
+  tft->println("Wi-Fi OK!");
+
+  tft->setCursor(20, 130);
+  tft->setTextColor(CIANO);
+  tft->println(WiFi.localIP().toString());
+  
+  delay(5000); // Fica parado 5 segundos para você anotar o IP!
+  // -----------------------------------------
   
   // Desenha a interface inicial do controle
   tft->fillScreen(PRETO);
